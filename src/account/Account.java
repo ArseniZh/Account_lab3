@@ -13,4 +13,30 @@ public class Account {
         this.blockAccount = blockAccount;
     }
 
+
+    public void setId(int id) {
+        this.id = id;
+    }
+    public int getId() {
+        return this.id;
+    }
+    public void setCardNumber(long cardNumber) {
+        this.cardNumber = cardNumber;
+    }
+    public long getCardNumber() {
+        return this.cardNumber;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getName() {
+        return this.name;
+    }
+    public void setBlockAccount(boolean blockAccount) {
+        this.blockAccount = blockAccount;
+    }
+    public boolean getBlockAccount() {
+        return this.blockAccount;
+    }
+
 }
